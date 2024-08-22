@@ -22,6 +22,9 @@
           extend: {
             colors: {
               primary: "rgb(171, 239, 95)",
+              btn: "#ABEF5F80",
+              heading: "#212121",
+              secondery: "#494949",
               "text-primary": "rgb(33, 33, 33)",
               link01: "rgb(115, 115, 115)",
             },
@@ -35,6 +38,7 @@
     <title>Rinterio</title>
   </head>
   <body class="font-manrope">
+    <!-- Header Section Starts Here -->
     <header>
       <nav
         class="container mx-auto py-8 px-5 md:px-8 md:py-10 lg:px-0 lg:py-12"
@@ -192,5 +196,54 @@
         </div>
       </nav>
     </header>
+    <main>
+      <!-- Hero Section Starts Here -->
+      <section>
+        <div
+          class="container mx-auto flex flex-col gap-6 justify-center items-center p-5"
+        >
+          <div>
+            <img src="images/banner.png" alt="banner" />
+          </div>
+          <h1
+            class="text-[28px] md:text-[36px] lg:text-[64px] font-extrabold leading-[32px] md:leading-[49px] lg:leading-[87px] text-center text-heading md:w-[620px] lg:w-[1080px]"
+          >
+            A barn house of this design has a striking appearance
+          </h1>
+          <p
+            class="text-sm md:text-base font-medium leading-[24px] md:leading-[26px] text-center text-secondery md:w-[572px] lg:w-[970px]"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <div class="w-full md:w-auto">
+            <div
+              class="bg-btn flex items-center justify-center px-6 py-3 rounded-full mt-2"
+            >
+              <button class="text-xl font-bold leading-[27px]">
+                View Details
+              </button>
+              <span class="p-[10px] rounded-full bg-primary ml-1"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
