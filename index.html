@@ -25,8 +25,9 @@
               btn: "#ABEF5F80",
               heading: "#212121",
               secondery: "#494949",
+              body: "#F4F4F4",
               "text-primary": "rgb(33, 33, 33)",
-              link01: "rgb(115, 115, 115)",
+              link01: "#737373",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -195,37 +196,65 @@
           </div>
         </div>
       </nav>
-    </header>
-    <main>
       <!-- Hero Section Starts Here -->
-      <section>
-        <div
-          class="container mx-auto flex flex-col gap-6 justify-center items-center p-5"
+      <div
+        class="container mx-auto flex flex-col gap-6 justify-center items-center p-5"
+      >
+        <div>
+          <img src="images/banner.png" alt="banner" />
+        </div>
+        <h1
+          class="text-[28px] md:text-[36px] lg:text-[64px] font-extrabold leading-[32px] md:leading-[49px] lg:leading-[87px] text-center text-heading md:w-[620px] lg:w-[1080px]"
         >
-          <div>
-            <img src="images/banner.png" alt="banner" />
+          A barn house of this design has a striking appearance
+        </h1>
+        <p
+          class="text-sm md:text-base font-medium leading-[24px] md:leading-[26px] text-center text-secondery md:w-[572px] lg:w-[970px]"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <div class="w-full md:w-auto">
+          <div
+            class="bg-btn flex items-center justify-center px-6 py-3 rounded-full mt-2"
+          >
+            <button class="text-xl font-bold leading-[27px]">
+              View Details
+            </button>
+            <span class="p-[10px] rounded-full bg-primary ml-1"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </span>
           </div>
-          <h1
-            class="text-[28px] md:text-[36px] lg:text-[64px] font-extrabold leading-[32px] md:leading-[49px] lg:leading-[87px] text-center text-heading md:w-[620px] lg:w-[1080px]"
-          >
-            A barn house of this design has a striking appearance
-          </h1>
-          <p
-            class="text-sm md:text-base font-medium leading-[24px] md:leading-[26px] text-center text-secondery md:w-[572px] lg:w-[970px]"
-          >
-            The barn house captivates with its blend of rustic charm and modern
-            sophistication, featuring weathered wood, sleek metal accents, and
-            large windows that flood the space with natural light.
-          </p>
-          <div class="w-full md:w-auto">
-            <div
-              class="bg-btn flex items-center justify-center px-6 py-3 rounded-full mt-2"
-            >
-              <button class="text-xl font-bold leading-[27px]">
-                View Details
-              </button>
-              <span class="p-[10px] rounded-full bg-primary ml-1"
-                ><svg
+        </div>
+      </div>
+    </header>
+    <main class="bg-body">
+      <section>
+        <!-- About Section Starts Here -->
+        <div
+          class="container mx-auto flex gap-[37px] items-center justify-center py-[100px]"
+        >
+          <div class="w-1/2">
+            <img src="images/Vector.png" alt="" />
+            <div class="inline-block">
+              <div
+                class="flex gap-4 items-center px-4 py-2 bg-white rounded-3xl"
+              >
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -236,14 +265,236 @@
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                   />
                 </svg>
-              </span>
+                <p class="font-bold leading-[22px] text-secondery">About Us</p>
+              </div>
+            </div>
+            <h2
+              class="text-[40px] font-bold leading-[55px] text-heading mt-4 mb-6 lg:w-3/4"
+            >
+              We design thoughtful, liveable spaces
+            </h2>
+            <p
+              class="text-[16px] font-medium leading-[26px] text-secondery mb-6 lg:w-4/5"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <div class="flex flex-col gap-6">
+              <div class="flex items-center gap-6 p-6 bg-white rounded-3xl">
+                <div>
+                  <img src="images/commercial.png" alt="" />
+                </div>
+                <div class="space-y-[10px] lg:w-1/2">
+                  <h3
+                    class="text-xl font-extrabold leading-[26px] text-secondery"
+                  >
+                    Commercial
+                  </h3>
+                  <p class="text-base font-medium leading-[25px] text-link01">
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6 p-6 bg-white rounded-3xl">
+                <div>
+                  <img src="images/residential.png" alt="" />
+                </div>
+                <div class="space-y-[10px] lg:w-1/2">
+                  <h3
+                    class="text-xl font-extrabold leading-[26px] text-secondery"
+                  >
+                    Residential
+                  </h3>
+                  <p class="text-base font-medium leading-[25px] text-link01">
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-1/2">
+            <img src="images/Rectangle.png" alt="" class="rounded-3xl w-full" />
+          </div>
+        </div>
+        <!-- Client Section Starts Here -->
+        <div class="container mx-auto p-6 bg-white rounded-3xl">
+          <div class="grid grid-cols-4">
+            <div class="flex flex-col items-center justify-center p-6">
+              <svg
+                width="41"
+                height="40"
+                viewBox="0 0 41 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.8334 22.5001H27.1667M13.8334 14.1667H20.5"
+                  stroke="#737373"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.6647 31.6667C8.49787 31.4536 6.87462 30.8027 5.78599 29.7141C3.83337 27.7616 3.83337 24.6187 3.83337 18.3334V17.5001C3.83337 11.2147 3.83337 8.072 5.78599 6.11936C7.73862 4.16675 10.8813 4.16675 17.1667 4.16675H23.8334C30.1187 4.16675 33.2615 4.16675 35.214 6.11936C37.1667 8.072 37.1667 11.2147 37.1667 17.5001V18.3334C37.1667 24.6187 37.1667 27.7616 35.214 29.7141C33.2615 31.6667 30.1187 31.6667 23.8334 31.6667C22.8992 31.6876 22.1552 31.7586 21.4244 31.9251C19.427 32.3849 17.5775 33.4069 15.7498 34.2982C13.1455 35.5681 11.8434 36.2031 11.0262 35.6086C9.46286 34.4442 10.9909 30.8366 11.3334 29.1667"
+                  stroke="#737373"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <h4
+                class="text-[40px] font-extrabold leading-[55px] text-secondery"
+              >
+                235+
+              </h4>
+              <p class="text-base font-medium leading-[26px] text-link01">
+                Happy Client Review
+              </p>
+            </div>
+            <div class="flex flex-col items-center justify-center p-6">
+              <svg
+                width="40.000000"
+                height="40.000000"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <path
+                  id="Vector"
+                  d="M34.99 15.21C34.99 13.32 34.99 12.37 34.53 11.58C34.07 10.78 33.25 10.32 31.61 9.39L23.24 4.67C21.65 3.78 20.86 3.33 20 3.33C19.13 3.33 18.34 3.78 16.76 4.67L8.38 9.39C6.74 10.32 5.92 10.78 5.46 11.58C5 12.37 5 13.32 5 15.21L5 23.13C5 29.51 5 32.7 6.95 34.68C8.9 36.66 12.04 36.66 18.33 36.66L21.66 36.66C27.95 36.66 31.09 36.66 33.04 34.68C35 32.7 35 29.51 35 23.13L34.99 15.21Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                />
+                <path
+                  id="Vector"
+                  d="M16.66 21.66L13.33 21.66M26.66 21.66L23.33 21.66M16.66 15L13.33 15M16.66 28.33L13.33 28.33M26.66 15L23.33 15M26.66 28.33L23.33 28.33"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+              <h4
+                class="text-[40px] font-extrabold leading-[55px] text-secondery"
+              >
+                50+
+              </h4>
+              <p class="text-base font-medium leading-[26px] text-link01">
+                Work Departments
+              </p>
+            </div>
+            <div class="flex flex-col items-center justify-center p-6">
+              <svg
+                width="40.000000"
+                height="40.000000"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <path
+                  id="Vector"
+                  d="M34.62 30C35.87 30 36.86 29.21 37.75 28.11C39.58 25.86 36.58 24.06 35.44 23.18C34.28 22.29 32.98 21.78 31.66 21.66M30 18.33C32.3 18.33 34.16 16.46 34.16 14.16C34.16 11.86 32.3 10 30 10"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M5.37 30C4.12 30 3.13 29.21 2.24 28.11C0.41 25.86 3.41 24.06 4.55 23.18C5.71 22.29 7.01 21.78 8.33 21.66M9.16 18.33C6.86 18.33 5 16.46 5 14.16C5 11.86 6.86 10 9.16 10"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M10.02 31.07C11.35 32.39 12.83 33.33 14.69 33.33L25.3 33.33C27.16 33.33 28.64 32.39 29.97 31.07C32.69 28.38 28.23 26.23 26.52 25.18C22.53 22.71 17.46 22.71 13.47 25.18C11.77 26.23 7.3 28.38 10.02 31.07Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linejoin="round"
+                />
+                <path
+                  id="Vector"
+                  d="M20 18.33C16.77 18.33 14.16 15.72 14.16 12.5C14.16 9.27 16.77 6.66 20 6.66C23.22 6.66 25.83 9.27 25.83 12.5C25.83 15.72 23.22 18.33 20 18.33Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                />
+              </svg>
+
+              <h4
+                class="text-[40px] font-extrabold leading-[55px] text-secondery"
+              >
+                30k+
+              </h4>
+              <p class="text-base font-medium leading-[26px] text-link01">
+                Our Happy Client
+              </p>
+            </div>
+            <div class="flex flex-col items-center justify-center p-6">
+              <svg
+                width="40.000000"
+                height="40.000000"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <path
+                  id="Vector"
+                  d="M31.02 33.33L31.84 33.33C33.76 33.33 35.28 32.46 36.65 31.23C40.13 28.13 31.95 25 29.16 25M25.83 8.44C26.21 8.37 26.6 8.33 27 8.33C30.04 8.33 32.5 10.57 32.5 13.33C32.5 16.09 30.04 18.33 27 18.33C26.6 18.33 26.21 18.29 25.83 18.21"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M3.48 32.74C5.02 34.06 6.72 35 8.87 35L21.12 35C23.27 35 24.97 34.06 26.51 32.74C29.64 30.05 24.49 27.9 22.53 26.85C17.92 24.38 12.07 24.38 7.46 26.85C5.5 27.9 0.35 30.05 3.48 32.74Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                />
+                <path
+                  id="Vector"
+                  d="M14.99 19.16C11.31 19.16 8.33 16.18 8.33 12.5C8.33 8.81 11.31 5.83 14.99 5.83C18.68 5.83 21.66 8.81 21.66 12.5C21.66 16.18 18.68 19.16 14.99 19.16Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                />
+              </svg>
+
+              <h4
+                class="text-[40px] font-extrabold leading-[55px] text-secondery"
+              >
+                307+
+              </h4>
+              <p class="text-base font-medium leading-[26px] text-link01">
+                Staff Members
+              </p>
             </div>
           </div>
         </div>
       </section>
     </main>
   </body>
+  <!-- Footer Section Starts Here -->
+  <footer></footer>
 </html>
