@@ -35,9 +35,13 @@
               card04: "#77AAEA",
               footer: "#1C1C1C",
               "footer-title": "#E9E9E9",
+              field: "#A0A0A0",
             },
             fontFamily: {
               manrope: "Manrope",
+            },
+            backgroundImage: {
+              connect: "url('images/bg.jpg')",
             },
           },
         },
@@ -250,8 +254,8 @@
       </div>
     </header>
     <main class="bg-body">
+      <!-- About Section Starts Here -->
       <section>
-        <!-- About Section Starts Here -->
         <div
           class="container mx-auto flex gap-[37px] items-center justify-center py-[100px]"
         >
@@ -329,7 +333,9 @@
             <img src="images/Rectangle.png" alt="" class="rounded-3xl w-full" />
           </div>
         </div>
-        <!-- Client Section Starts Here -->
+      </section>
+      <!-- Client Section Starts Here -->
+      <section>
         <div class="container mx-auto p-6 bg-white rounded-3xl">
           <div class="grid grid-cols-4">
             <div class="flex flex-col items-center justify-center p-6">
@@ -499,7 +505,9 @@
             </div>
           </div>
         </div>
-        <!-- Works Section Starts Here -->
+      </section>
+      <!-- Works Section Starts Here -->
+      <section>
         <div
           class="container flex flex-col items-center justify-center mx-auto py-[100px]"
         >
@@ -578,7 +586,49 @@
             </div>
           </div>
         </div>
-        <!-- News Section Starts Here -->
+      </section>
+      <!-- Portfolio Section Starts Here -->
+      <section class="bg-white">
+        <div
+          class="container mx-auto py-[100px] flex flex-col items-center justify-center"
+        >
+          <div class="inline-block">
+            <div class="flex gap-4 items-center px-4 py-2 bg-btn rounded-3xl">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+              <p class="font-bold leading-[22px] text-secondery">
+                Explore our Latest works
+              </p>
+            </div>
+          </div>
+          <h2
+            class="text-[40px] font-bold leading-[55px] text-heading mt-4 mb-6 text-center"
+          >
+            Our Latest Portfolio
+          </h2>
+          <p
+            class="text-[16px] font-medium leading-[26px] text-secondery mb-8 lg:w-[670px] text-center"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          <div></div>
+        </div>
+      </section>
+      <!-- News Section Starts Here -->
+      <section>
         <div
           class="container mx-auto py-[100px] flex flex-col items-center justify-center"
         >
@@ -1059,6 +1109,101 @@
                     stroke-linejoin="round"
                     stroke-linecap="round"
                   />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Connect Section Starts Here -->
+      <section class="bg-connect bg-no-repeat bg-cover">
+        <div
+          class="container mx-auto py-[100px] flex flex-col items-center justify-center"
+        >
+          <div class="inline-block">
+            <div class="flex gap-4 items-center px-4 py-2 bg-btn rounded-3xl">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+              <p class="font-bold leading-[22px] text-secondery">
+                Let’s Connect
+              </p>
+            </div>
+          </div>
+          <h2
+            class="text-[40px] font-bold leading-[55px] text-heading mt-4 mb-6 text-center"
+          >
+            Let’s Discuss Next Project
+          </h2>
+          <p
+            class="text-[16px] font-medium leading-[26px] text-secondery mb-8 lg:w-[670px] text-center"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          <div class="flex flex-col gap-6">
+            <div class="flex gap-6">
+              <input
+                type="text"
+                placeholder="First Name*"
+                class="block p-5 w-[470px] rounded-full text-base font-medium leading-[22px] text-field"
+              />
+              <input
+                type="text"
+                placeholder="Last Name*"
+                class="block p-5 w-[470px] rounded-full text-base font-medium leading-[22px] text-field"
+              />
+            </div>
+            <div class="flex gap-6">
+              <input
+                type="text"
+                placeholder="Phone Number*"
+                class="block p-5 w-[470px] rounded-full text-base font-medium leading-[22px] text-field"
+              />
+              <input
+                type="text"
+                placeholder="Email Number*"
+                class="block p-5 w-[470px] rounded-full text-base font-medium leading-[22px] text-field"
+              />
+            </div>
+            <div>
+              <textarea
+                name="message"
+                placeholder="Write your message here"
+                class="block w-full p-5 h-60 rounded-3xl text-base font-medium leading-[22px] text-field"
+              ></textarea>
+            </div>
+            <div
+              class="px-5 py-3 flex gap-2 flex-row bg-primary rounded-full items-center justify-center mt-2"
+            >
+              <a
+                href="#"
+                class="text-xl font-extrabold leading-7 text-[#1C1C1C]"
+                >Send Mail</a
+              >
+              <div class="p-[10px] rounded-full bg-[#1C1C1C]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 text-white"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z"
+                    clip-rule="evenodd"
+                  ></path>
                 </svg>
               </div>
             </div>
